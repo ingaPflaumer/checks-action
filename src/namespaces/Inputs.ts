@@ -41,6 +41,7 @@ export type Actions = NonNullable<RestEndpointMethodTypes['checks']['create']['p
 
 export type Output = {
   summary: string;
+  title?: string;
   text_description?: string;
 };
 
